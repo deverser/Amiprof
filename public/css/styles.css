@@ -2,3 +2,9 @@
   width: 1200px;
   margin: 0 auto;
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Scada", sans-serif;
+}
