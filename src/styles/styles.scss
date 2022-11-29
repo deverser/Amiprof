@@ -1,0 +1,8 @@
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+@import '../components/header/header';
+@import '../components/main/main';
+@import '../components/footer/footer';
