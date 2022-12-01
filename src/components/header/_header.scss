@@ -1,0 +1,38 @@
+.header {
+	background-color: #FFDDA7;
+	height: 687px;
+	padding-top: 17px;
+
+	& .container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__menu {
+		display: grid;
+		grid-template-columns: repeat(7, 1fr);
+		column-gap: 42px;
+		width: 685px;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 21px;
+
+		&_item {
+			justify-self: center;
+
+			& a {
+				text-decoration: none;
+				color: #2D2D2D;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	&__contacts {
+		width: 191px;
+	}
+}

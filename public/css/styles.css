@@ -3,8 +3,42 @@
   margin: 0 auto;
 }
 
-body {
+.header {
+  background-color: #FFDDA7;
+  height: 687px;
+  padding-top: 17px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  -webkit-column-gap: 42px;
+  column-gap: 42px;
+  width: 685px;
   font-family: "Montserrat", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Scada", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.header__menu_item {
+  justify-self: center;
+}
+
+.header__menu_item a {
+  text-decoration: none;
+  color: #2D2D2D;
+}
+
+.header__menu_item a:hover {
+  text-decoration: underline;
+}
+
+.header__contacts {
+  width: 191px;
 }

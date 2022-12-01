@@ -83,7 +83,7 @@ function copyImages() {
 }
 
 function copyIcons() {
-   return src('./src/icons/**/*')
+   return src('./src/icons/*')
   .pipe(dest('./public/icons/'));
 }
 
